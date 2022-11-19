@@ -1,0 +1,42 @@
+.toggle{
+    appearance: none;
+    display: none;
+    -webkit-appearance: none;
+}
+.toggle-switch{
+
+background-color: #0d1b29;
+width: 78px;
+height: 32px;
+border-radius: 16px;
+position: relative;
+transition: 0.5s;
+cursor: pointer;
+}
+.toggle-switch::before{
+    font-family: 'Font Awesome 6 Free';
+    content: '\f0eb';
+    font-weight: 900;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    position: absolute;
+    border-radius: 50%;
+    top: 4px;
+    left: 4px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.toggle:checked + .toggle-switch{
+    background-color:#ccc ;
+}
+.toggle:checked + .toggle-switch::before{
+    font-family: 'Font Awesome 6 Free';
+    content: '\f186';
+    font-weight: 900;
+    left: 50px;
+    color:#fff;
+}

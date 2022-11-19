@@ -1,0 +1,81 @@
+.intro{
+text-align: center;
+}
+
+.intro p{
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    width: 65%;
+    margin: 0 auto;
+    font-weight: bold;
+    line-height: 1.7;
+    padding: 10px;
+}
+.intro.light p{
+    color: #333;
+} 
+.intro.light i{
+    color: #539ce4;
+}
+.intro h1,.fhrs h1,.numberr h2{
+    color: #539ce4;
+    margin-top: 10px;
+}
+.fhrs{
+    padding: 10px 20px;
+}
+.fhrs ul{
+    margin-top: 10px;
+    list-style: none;padding: 0
+}
+.fhrs ul li {    margin-bottom: 15px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-align: initial;}
+/* 
+.fhrs.light ul li {
+    color: #141e1d;
+    } */
+.fhrs i{font-size: 25px;margin-left: 15px;transition: all .5s ease;
+    display: contents;}
+.fhrs ul li i{
+    color: #539ce4;
+    font-size: 16px;
+    }
+    /* .fhrs.light ul li i{
+        color: #446063;
+        font-size: 16px;
+        } */
+   
+.fhrs ul{
+    margin-right: 15px;
+           
+}
+.fhrs a{    text-decoration: none;
+    color: white;}
+.fhrs.light a{    text-decoration: none;
+        color: #333;;}
+.numberr{
+    padding: 10px 20px;
+}
+/* .numberr.light {
+    color: #446063;
+} */
+.ar h1{
+    color: #539ce4;
+    text-align: center;
+}
+.intro.light h1,.fhrs.light h1,.numberr.light h1{
+    color: #539ce4;
+}
+
+@media (max-width: 768px) {
+    .intro p{
+
+        width: 100%;
+      
+    }
+} 
+

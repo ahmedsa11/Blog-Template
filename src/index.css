@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Almarai', sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+ background-color: white;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #539ce4;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color:#1584f4
+}
+pre , pre *,
+code *,code {
+  font-family: 'Vazir Code', monospaced;
+}

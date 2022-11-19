@@ -1,0 +1,51 @@
+[
+  {
+    "title": "عنوان المقاله",
+    "description": "وصف المقاله",
+    "category": "API",
+    "slug": "api-concept",
+    "path": "/src/articles/api-concept.md"
+  },
+  {
+    "title": "عنوان المقاله",
+    "description": "وصف المقاله",
+    "category": "API",
+    "slug": "handle-with-api",
+    "path": "/src/articles/handle-with-api.md"
+  },
+  {
+    "title": "عنوان المقاله",
+    "description": "وصف المقاله",
+    "category": "Javascript | General",
+    "slug": "callback",
+    "path": "/src/articles/callback.md"
+  },
+  {
+    "title": "عنوان المقاله",
+    "description": "وصف المقاله",
+    "category": "Javascript | General",
+    "slug": "recursion",
+    "path": "/src/articles/recursion.md"
+  },
+  {
+    "title": "عنوان المقاله",
+    "description": "وصف المقاله",
+    "category": "OOP Concepts",
+    "slug": "classes-and-objects-idea",
+    "path": "/src/articles/classes-and-objects-idea.md"
+  },
+  {
+    "title": "عنوان المقاله",
+    "description": "وصف المقاله",
+    "category": "OOP Concepts",
+    "slug": "misunderstanding-encapsulation",
+    "path": "/src/articles/misunderstanding-encapsulation.md"
+  },
+  {
+    "title": "عنوان المقاله",
+    "description": "وصف المقاله",
+    "category": "Others",
+    "slug": "my-way-to-problem-solving",
+    "path": "/src/articles/my-way-to-problem-solving.md"
+  }
+]

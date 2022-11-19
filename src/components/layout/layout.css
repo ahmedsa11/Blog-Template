@@ -1,0 +1,12 @@
+.layout{
+    min-height: 100vh;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0d1b29;
+   
+}
+.layout.light{
+    background-color: #fff;
+}

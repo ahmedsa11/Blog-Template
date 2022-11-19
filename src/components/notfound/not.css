@@ -1,0 +1,25 @@
+.not{
+    display: flex;
+    justify-content: space-around;
+    padding: 90px 10px 0;
+}
+.not  img{
+    width: 400px;
+    object-fit: cover;
+}
+.not h1{
+color: #fff;
+font-weight: bold;
+text-align: center;
+}
+.not.light h1{
+color: #333;
+}
+@media (max-width:747px){
+    .not img{
+   display: none;
+    }
+    .not .info{
+        flex: 1;
+    }
+}

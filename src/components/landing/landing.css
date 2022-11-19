@@ -1,0 +1,98 @@
+.land{
+    display: flex;
+    justify-content: space-around;
+    padding: 90px 10px 0;
+}
+.land .img img{
+    width: 400px;
+    object-fit: cover;
+}
+.land .info{
+    text-align: center;
+    font-size: 19px;
+}
+.land .info h2{
+font-weight: bold;
+color: #539ce4;
+}
+/* .land.light .info h2{
+    color: #141e1d;
+} */
+.land .info h3{
+    color: white;
+    font-weight: bold;
+}
+.land.light .info h3{
+    color: #333;
+}
+.land .info h3 i{
+color: #eee;
+}
+.land .info h3,.land .info h2{
+    line-height: 2;
+}
+.land.light .info h3 i{
+    color: #333;
+    }
+.land .info button{
+    padding: 7px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    width: fit-content;
+    cursor: pointer;
+    background-color:#539ce4;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.land .info button:hover{
+    background-color: #386a9c;
+}
+.land .info button i{
+color: rgb(0, 30, 60);
+}
+
+.land .social ul{
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 0;
+
+}
+.land .social ul li{
+    display: inline;
+    margin-right: 13px;
+}
+.land .social ul li i{
+color: white;
+font-size: 20px;
+font-weight: bold;
+padding: 10px;
+border-radius: 7px;
+background-color:#539ce4;
+cursor: pointer;
+transition: 0.3s;
+}
+.land .social ul li i:hover{
+    background-color: #386a9c;
+
+}
+@media (max-width:747px){
+    .land{
+        padding: 10px;
+    }
+    .land .img img{
+   display: none;
+    }
+    .land .info{
+        flex: 1;
+        font-size: 18px;
+    }
+    .land .social ul li{
+        display: inline;
+        margin-right: 5px;
+    }
+}
